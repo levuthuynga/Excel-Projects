@@ -1,5 +1,5 @@
 # Excel-Projects
 
-At first, I thought Excel must be the most familiar and easiest tool. Excel had me surprised. Not only with more functions than I have ever heard of, the combination of both analyze and visualize tools 
+At first, I thought Excel must be the most familiar and easiest tool. Excel had me surprised. Now I like to clean data in this software, especially dataset with not too many records. It's easy to do descriptive analysis by Data Analysis add-in, to create box plots and histograms to visualize, or to examine some specific rows in the dataset.
 
-[Customer Personality](https://github.com/levuthuynga/Excel-Projects/tree/main/Customer%20Personality)
+[Customer Personality Project](https://github.com/levuthuynga/Excel-Projects/tree/main/Customer%20Personality)
