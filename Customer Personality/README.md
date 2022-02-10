@@ -1,6 +1,6 @@
 # Customer Personality Analysis
 
-This is my analysis process. I did it basically in Excel. This project is my first time doing clustering, trying to find more about customer behaviours and optimize marketing plans of this unreal company, than just a descriptive analysis and some general insights.
+This is my analysis process. I did it basically in Excel. This project is my first time doing segmentation, trying to find more about customer behaviours and optimize marketing plans of this unreal company, than just a descriptive analysis and some general insights.
 
 ### [EXCEL FILE](https://github.com/levuthuynga/Excel-Projects/blob/main/Customer%20Personality/Customer%20Personality%20.xlsx)
 
