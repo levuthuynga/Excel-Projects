@@ -1,6 +1,6 @@
 # Customer Personality Analysis
 
-This is my analysis process. I did it basically in Excel. This project is my first time doing segmentation, trying to find more about customer behaviours and optimize marketing plans of this unreal company, than just a descriptive analysis and some general insights.
+This is my analysis process. I did it basically in Excel. This project is my first time doing segmentation, trying to find more about customer behaviors and optimize marketing plans of this unreal company,rather than just a descriptive analysis and some general insights.
 
 ### [EXCEL FILE](https://github.com/levuthuynga/Excel-Projects/blob/main/Customer%20Personality/Customer%20Personality%20.xlsx)
 
@@ -10,8 +10,6 @@ Here are 4 steps of this analysis:
 3. Process
 4. Analyze
  
-*As in Excel file, the sheet order should be: Desciptive Analysis to get general ideal about data, then clean data in Data V2, analyze data in Pivot, create customer clusters in Divide into group, then analyze customer clusters in Cluster Demography and Cluster Behaviours. The conclusion will be in Conclusion sheet.*
-
 ## Context
 Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it easier for them to modify products according to the specific needs, behaviors and concerns of different types of customers.
 
@@ -21,7 +19,7 @@ Customer personality analysis helps a business to modify its product based on it
 
 ## I. Ask
 
-Analysis goal: make suggestions on marketing plan based on customer segmentations.
+Analysis goal: make suggestions on marketing plans based on customer segmentations.
 
 ## II. Prepare
 ### 1. Information about Data Source
@@ -76,7 +74,7 @@ NumWebVisitsMonth: Number of visits to company’s website in the last month
 ### 1. Import Data to Excel
 2240 rows imported.
 
-### 2. Detect abnomalities (outliers, null, empty values...)
+### 2. Detect abnormalities (outliers, null, empty values...)
 #### Outliers
 
 - Year_birth: Data was collected from 2012-2014, customers whose year_birth before 1903 must be an error. Drop 3 rows.
@@ -84,7 +82,7 @@ NumWebVisitsMonth: Number of visits to company’s website in the last month
 - Products and place columns: there are too many outliers, keep them for further analysis
 
 #### Null and empty cells
-- Income: 24 nulls. Assume that income depend on age and education level, I calculate average income of each age-education combination and assign that value to corresponding null.
+- Income: 24 nulls. Assuming that income depends on age and education level, I calculate the average income of each age-education combination and assign that value to corresponding null.
 
 #### Actions
 - Delete rows where year_birth and income values are outliers. 11 rows total.
@@ -92,11 +90,11 @@ NumWebVisitsMonth: Number of visits to company’s website in the last month
 
 ## IV. Analyze
 ### 1. Assumptions: 
-Find relationships between customers's age, education, family and their behaviours:
-- Combine all product values to calculate total spend column.
+Find relationships between customers's age, education, family and their behaviors:
+- Combine all product values to calculate the total spend column.
 - Assign new values to category features: education, marital_status and income.
 - Combine kidhome, teenhome and marital_status to calculate family size.
-- Combine NumWebPurchases, NumCatalogPurchases, NumStorePurchases columns to calculate total purchase column.
+- Combine NumWebPurchases, NumCatalogPurchases, NumStorePurchases columns to calculate the total purchase column.
 - Create Pivot Tables to find relationships.
 
 ### 2. Findings
@@ -108,12 +106,12 @@ Customers dataset is divided into 5 clusters:
 - Low income - low spend (5)
 
 ## V. Suggestions
-- Cluster 1:	They earn a lot and also spend a lot, not care much about discount. Show them the best quality products
+- Cluster 1:	They earn a lot and also spend a lot, and do not care much about discounts. Show them the best quality products
 - Cluster 2:	They buy just a little less time than cluster 1 (mostly through catalog), but average spend is much smaller. The products might not suit their likings. Diverse the products to find more about them
-- Cluster 3:	They buy the most times, they like discount and wines. Show them higher price products with some discount might work
-- Cluster 4:	They also like discount, but buy much less times and much less expenses. They quite like the web. Use web to attract them, maybe by discounting
-- Cluster 5:	They really like the web, but might not have products suit their budget. Find more lower price products to attract this type of customers
+- Cluster 3:	They buy the most times, they like discounts and wines. Show them higher price products with some discount might work
+- Cluster 4:	They also like discounts, but buy much less times and much less expenses. They quite like the web. Use web to attract them, maybe by discounting
+- Cluster 5:	They really like the web, but might not have products that suit their budget. Find more lower price products to attract this type of customers
 
 ## VI. Future Analysis
-- Is cluster demography affect cluster behaviours?
-- Suggest better ideals with more indepth findings.
+- Does cluster demography affect cluster behaviors?
+- Suggest better ideas with more detailed findings.
